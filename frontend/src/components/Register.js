@@ -64,7 +64,10 @@ const Register = (props) => {
     console.log(obj);
     let resp;
     try {
-      resp = await axios.post("http://localhost:5000/api/users/signup", obj);
+      resp = await axios.post(
+        "https://foodcount2.onrender.com/api/users/signup",
+        obj
+      );
       console.log(resp.data);
       console.log(resp.status);
       swal("Account Has been created");

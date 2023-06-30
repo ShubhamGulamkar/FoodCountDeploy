@@ -28,7 +28,7 @@ export const Dashboard = () => {
     }
     const options = {
       method: "POST",
-      url: "http://localhost:5000/api/users/orderlist",
+      url: "https://foodcount2.onrender.com/api/users/orderlist",
       data: {
         d,
       },

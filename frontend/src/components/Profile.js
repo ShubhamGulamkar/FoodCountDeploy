@@ -57,7 +57,7 @@ export const Profile = () => {
 
     const options = {
       method: "POST",
-      url: "http://localhost:5000/api/users/booking",
+      url: "https://foodcount2.onrender.com/api/users/booking",
       data: {
         id,
         type,
