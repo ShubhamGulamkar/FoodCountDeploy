@@ -55,7 +55,7 @@ const Login = (props) => {
             value={user.email}
             onChange={handleChange}
             type="email"
-            placeholder="youremail@gmail.com"
+            placeholder="youremail@genzeon.com"
             id="email"
             name="email"
           />
